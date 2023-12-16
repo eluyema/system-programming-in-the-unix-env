@@ -67,7 +67,6 @@ impl DirEntry {
     }
 
     fn fd(&self) -> i32 {
-        // Method body empty as per instructions
         let mut path: VecDeque<DirEntry> = VecDeque::new();
         let mut fd1: i32;
         let mut fd2: i32;
